@@ -1,6 +1,5 @@
 a=4
 b=2
-
 if(a>b):
     big=a
 else:
