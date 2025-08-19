@@ -1,0 +1,11 @@
+for i in "for":
+    c=2
+    for i in "range":
+        print("hai",end=" ")
+        c=c+2
+    print(c,end=" ")
+    print()
+
+
+a=int(input())
+b=int(input())
