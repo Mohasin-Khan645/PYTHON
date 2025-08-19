@@ -6,6 +6,5 @@ for i in "for":
     print(c,end=" ")
     print()
 
-
 a=int(input())
 b=int(input())
