@@ -1,0 +1,5 @@
+input_string = input("Enter a string: ")
+special_characters = "!@#$%^&*()_+-=[]{}|;':\",.<>?/~`"
+for char in special_characters:
+    input_string = input_string.replace(char, ' ')
+print("Modified string:", input_string)
