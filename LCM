@@ -1,0 +1,13 @@
+a=4
+b=2
+
+if(a>b):
+    big=a
+else:
+    big=b
+step=0
+while(True):
+    if(big%a==0 and big%b==0):
+        break
+    big=big+step
+print(big)
