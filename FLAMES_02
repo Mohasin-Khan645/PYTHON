@@ -1,0 +1,7 @@
+f = 0
+res = list('FLAMES')
+cnt = len(res)
+while(len(res) != 1):
+    f = (f + (cnt - 1)) % len(res)
+    res.pop(f)
+print(res[0])
